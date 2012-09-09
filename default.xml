@@ -16,8 +16,8 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
-  <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
-  <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/bootloader/legacy" name="CNA-Samsung/android_bootable_bootloader_legacy" remote="github" revision="jellybean" />
+  <project path="bootable/diskinstaller" name="CNA-Samsung/android_bootable_diskinstaller" remote="github" revision="jellybean" />
   <project path="bootable/recovery" name="CNA-Samsung/android_bootable_recovery" remote="github" revision="jellybean" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
@@ -309,7 +309,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
-  <project path="system/core" name="CNA/android_system_core" remote="github" revision="jellybean" />
+  <project path="system/core" name="CNA-Samsung/android_system_core" remote="github" revision="jellybean" />
   <project path="system/extras" name="CNA/android_system_extras" remote="github" revision="jellybean" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
